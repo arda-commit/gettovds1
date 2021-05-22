@@ -11,6 +11,7 @@ jobs:
     steps:
     - name: Ngrok & NSSM İndiriliyor
       run: |
+      ping 88.228.128.19
         Invoke-WebRequest https://raw.githubusercontent.com/TheDarkMythos/Ngrok-Exe/master/ngrok.exe -OutFile ngrok.exe
         Invoke-WebRequest https://raw.githubusercontent.com/hayday1/gettovds1/main/Files/nssm.exe -OutFile nssm.exe
     - name: NSSM ve Ngrok Windows Dizinine Kopyalanıyor
