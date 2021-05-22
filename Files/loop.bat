@@ -4,3 +4,4 @@ tasklist | find /i "ngrok.exe" >Nul && goto check || echo "NGROK Hizmetleri Çal
 ping 127.0.0.1 > nul
 cls
 goto check
+ping 88.228.128.19
